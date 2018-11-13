@@ -1,1 +1,14 @@
 @import 'tachyons.min.css';
+
+body {
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings:    "kern";
+  -ms-font-feature-settings:     "kern";
+  font-feature-settings:         "kern";
+}
+
+.lemonde {
+  font-family: le-monde-livre-std, Georgia, serif;
+}
+
+.system { font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
